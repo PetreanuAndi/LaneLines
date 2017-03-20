@@ -17,7 +17,7 @@ Lane Detection | Classic Computer Vision
 I innitially split the main functionality between "houghInference(image)" and "colorInference(image)" methods.
 Within "houghInference(image)" :
 * grayscale the image
-* apply histogram equalisation and thresholding on 1 channel, within "colorIngerence(image)"
+* apply histogram equalisation and thresholding on 1 channel, within "colorInference(image)"
 * apply canny edge detection
 * create ROI for hough transform
 * Hough transform with "threshold" and "min_line_length" parameters experimentally set to minimum values, in order to preserve small curve-lines.
