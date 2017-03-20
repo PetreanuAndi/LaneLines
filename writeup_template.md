@@ -9,9 +9,9 @@
 
 ---
 
-** Reflection
+### Reflection
 
-I innitially split the main functionality between "houghInference(image)" and "colorInference(image)" methods.
+#I innitially split the main functionality between "houghInference(image)" and "colorInference(image)" methods.
 Within "houghInference(image)" :
     * grayscale the image
     * apply histogram equalisation and thresholding on 1 channel, within "colorIngerence(image)"
