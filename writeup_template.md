@@ -11,7 +11,7 @@
 
 ### Reflection
 
-#I innitially split the main functionality between "houghInference(image)" and "colorInference(image)" methods.
+I innitially split the main functionality between "houghInference(image)" and "colorInference(image)" methods.
 Within "houghInference(image)" :
     * grayscale the image
     * apply histogram equalisation and thresholding on 1 channel, within "colorIngerence(image)"
@@ -30,12 +30,12 @@ Within the preprovisioned "hough_lines(masked_edges, rho, theta, threshold, min_
 ![alt text][image1]
 
 
-** Potential Shortcomings:
+### Potential Shortcomings:
 Will probably not generalise to an evnironment different than the one in hipothesis(1)
 Given the pretty hard filtration parameters used, there might be scenarios where displaying the same "previousLine" will cause big errors.
 
 
-** Suggest possible improvements to your pipeline
+## Suggest possible improvements to your pipeline
 
 IR camera
 ML
