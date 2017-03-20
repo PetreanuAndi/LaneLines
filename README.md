@@ -28,7 +28,7 @@ Within the preprovisioned "hough_lines(masked_edges, rho, theta, threshold, min_
 * make use of cv2.fitLine(..) method in order to fit the best possible line out of all my candidates (per frame per slope direction, Left or Right)
 * also keep a global history of "the best" lines detected (lines that resemble the expected slope of a lane-line + lines that are close to my current average)
 * calculate the intersection of my best fitted lines, at each frame, in order to dinamically compute their upper Y bounds.
-* compute the "safe-zone" polygon and vizualise nicely :D
+* compute the "safe-zone" polygon and visualise nicely :D
 
 ![alt text][image1]
 
