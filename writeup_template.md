@@ -5,7 +5,7 @@
 
 [//]: # (Image References)
 
-[image1]: /Users/Home/Desktop/Self-Driving/term1/project1/CarND-LaneLines-P1-master/capture.png "Challenge Capture"
+[image1]: ./capture.png "Challenge Capture"
 
 ---
 
